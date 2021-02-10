@@ -1,4 +1,4 @@
-function [aX] = skew(a)
+function [aX] = skew3(a)
     [n, m] = size(a);
     
     assert(min(n, m) == 1 & max(n, m) == 3, ...
